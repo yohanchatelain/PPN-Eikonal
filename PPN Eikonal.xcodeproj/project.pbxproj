@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		153B8A951A39B33300DB8369 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A941A39B33300DB8369 /* main.c */; };
+		153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A9B1A39B7D900DB8369 /* FirstOrder.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		153B8A911A39B33300DB8369 /* PPN Eikonal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PPN Eikonal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		153B8A941A39B33300DB8369 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		153B8A9B1A39B7D900DB8369 /* FirstOrder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FirstOrder.c; sourceTree = "<group>"; };
+		153B8A9C1A39B7D900DB8369 /* FirstOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstOrder.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				153B8A941A39B33300DB8369 /* main.c */,
+				153B8A9B1A39B7D900DB8369 /* FirstOrder.c */,
+				153B8A9C1A39B7D900DB8369 /* FirstOrder.h */,
 			);
 			path = "PPN Eikonal";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153B8A951A39B33300DB8369 /* main.c in Sources */,
+				153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
