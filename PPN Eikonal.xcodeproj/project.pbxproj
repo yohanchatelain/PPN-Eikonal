@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		153B8A951A39B33300DB8369 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A941A39B33300DB8369 /* main.c */; };
 		153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A9B1A39B7D900DB8369 /* FirstOrder.c */; };
+		153B8AA01A3A05DE00DB8369 /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A9E1A3A05DE00DB8369 /* Matrix.c */; };
+		153B8AA41A3A09F600DB8369 /* Solveur_quadratic_equation.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8AA21A3A09F600DB8369 /* Solveur_quadratic_equation.c */; };
+		153B8AA71A3A0A2400DB8369 /* typePrecision.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8AA51A3A0A2400DB8369 /* typePrecision.c */; };
+		153B8AAA1A3A19B900DB8369 /* AlgoRouyTourin.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8AA81A3A19B900DB8369 /* AlgoRouyTourin.c */; };
+		15A0448B1A3AE2680074DCDE /* VTK_ios.c in Sources */ = {isa = PBXBuildFile; fileRef = 15A044891A3AE2680074DCDE /* VTK_ios.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		153B8A941A39B33300DB8369 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		153B8A9B1A39B7D900DB8369 /* FirstOrder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FirstOrder.c; sourceTree = "<group>"; };
 		153B8A9C1A39B7D900DB8369 /* FirstOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstOrder.h; sourceTree = "<group>"; };
+		153B8A9E1A3A05DE00DB8369 /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix.c; sourceTree = "<group>"; };
+		153B8A9F1A3A05DE00DB8369 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		153B8AA21A3A09F600DB8369 /* Solveur_quadratic_equation.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Solveur_quadratic_equation.c; sourceTree = "<group>"; };
+		153B8AA31A3A09F600DB8369 /* Solveur_quadratic_equation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solveur_quadratic_equation.h; sourceTree = "<group>"; };
+		153B8AA51A3A0A2400DB8369 /* typePrecision.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = typePrecision.c; path = ../typePrecision.c; sourceTree = "<group>"; };
+		153B8AA61A3A0A2400DB8369 /* typePrecision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typePrecision.h; path = ../typePrecision.h; sourceTree = "<group>"; };
+		153B8AA81A3A19B900DB8369 /* AlgoRouyTourin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AlgoRouyTourin.c; sourceTree = "<group>"; };
+		153B8AA91A3A19B900DB8369 /* AlgoRouyTourin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoRouyTourin.h; sourceTree = "<group>"; };
+		15A044891A3AE2680074DCDE /* VTK_ios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VTK_ios.c; sourceTree = "<group>"; };
+		15A0448A1A3AE2680074DCDE /* VTK_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTK_ios.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +76,28 @@
 			isa = PBXGroup;
 			children = (
 				153B8A941A39B33300DB8369 /* main.c */,
+				153B8A9E1A3A05DE00DB8369 /* Matrix.c */,
+				153B8AA51A3A0A2400DB8369 /* typePrecision.c */,
+				153B8AA21A3A09F600DB8369 /* Solveur_quadratic_equation.c */,
 				153B8A9B1A39B7D900DB8369 /* FirstOrder.c */,
-				153B8A9C1A39B7D900DB8369 /* FirstOrder.h */,
+				15A044891A3AE2680074DCDE /* VTK_ios.c */,
+				153B8AA81A3A19B900DB8369 /* AlgoRouyTourin.c */,
+				153B8AA11A3A05FC00DB8369 /* Includes */,
 			);
 			path = "PPN Eikonal";
+			sourceTree = "<group>";
+		};
+		153B8AA11A3A05FC00DB8369 /* Includes */ = {
+			isa = PBXGroup;
+			children = (
+				153B8A9C1A39B7D900DB8369 /* FirstOrder.h */,
+				153B8AA61A3A0A2400DB8369 /* typePrecision.h */,
+				153B8A9F1A3A05DE00DB8369 /* Matrix.h */,
+				153B8AA31A3A09F600DB8369 /* Solveur_quadratic_equation.h */,
+				153B8AA91A3A19B900DB8369 /* AlgoRouyTourin.h */,
+				15A0448A1A3AE2680074DCDE /* VTK_ios.h */,
+			);
+			name = Includes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				153B8A951A39B33300DB8369 /* main.c in Sources */,
+				153B8AA01A3A05DE00DB8369 /* Matrix.c in Sources */,
+				15A0448B1A3AE2680074DCDE /* VTK_ios.c in Sources */,
+				153B8AAA1A3A19B900DB8369 /* AlgoRouyTourin.c in Sources */,
+				153B8AA71A3A0A2400DB8369 /* typePrecision.c in Sources */,
 				153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */,
+				153B8AA41A3A09F600DB8369 /* Solveur_quadratic_equation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +276,7 @@
 				153B8A9A1A39B33300DB8369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

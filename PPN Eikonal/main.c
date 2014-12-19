@@ -7,9 +7,14 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    static char *vtk_part_one = "# vtk Datafile Version %d.%d";
+    char *vtk = "# vtk Datafile Version 3.0";
+    printf("%d\n",strcmp(vtk_part_one,vtk));
+    
     return 0;
 }
