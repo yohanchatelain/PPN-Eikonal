@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include "typePrecision.h"
 
-Pnum solveEquation(Pnum Tx, Pnum Ty,Pnum a, Pnum b, Pnum c);
-Pnum solveEquation_2(Pnum Tx, Pnum Ty, Pnum a, Pnum b, Pnum c, Pnum alpha);
-
+Pnum solveEquation_1(Pnum Tx, Pnum Ty, Pnum h, Pnum f);
+Pnum solveEquation_2(Pnum Tx, Pnum Ty, Pnum h, Pnum f);
 #endif /* defined(__PPN_Eikonal__Solveur_quadratic_equation__) */

@@ -18,4 +18,6 @@
 typedef float Pnum;
 
 
+
+
 #endif /* defined(__PPN_Eikonal__typePrecision__) */

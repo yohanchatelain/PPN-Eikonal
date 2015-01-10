@@ -14,16 +14,7 @@
 #include <stdio.h>
 #include "typePrecision.h"
 
-typedef struct{
-    unsigned nb_row;
-    unsigned nb_col;
-    Pnum *data;
-
-}Matrice;
-
-Matrice* init(unsigned n,unsigned m,char *name_file_matrix);
-void freeMatrice(Matrice *m);
-Pnum get(Matrice *m,unsigned i,unsigned j);
-void set(Matrice *m, unsigned i,unsigned j,Pnum value);
-
+unsigned ind(unsigned nb_col, unsigned i, unsigned j);
+void print_matrice(Pnum *m, unsigned nb_row, unsigned nb_col);
+void copie(Pnum *source, Pnum *dest, unsigned nb_row, unsigned nb_col);
 #endif /* defined(__PPN_Eikonal__Matrix__) */

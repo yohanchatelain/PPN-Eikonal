@@ -8,31 +8,26 @@
 
 #include "Matrix.h"
 
-//Initialise une matrice (n,m)
-//Stockage en Row Major
-Matrice* init(unsigned n,unsigned m,char *name_file_matrix){
-    Matrice *mm = (Matrice*) malloc(sizeof(Matrice));
-    mm->nb_row = n;
-    mm->nb_col = m;
-    mm->data = (Pnum*) malloc(sizeof(n*m*sizeof(Pnum)));
-    return mm;
+unsigned ind(unsigned nb_col, unsigned i,unsigned j){
+    return i*nb_col+j;
 }
 
-//Libère la mémoire
-void freeMatrice(Matrice *m){
-    free(m->data);
-    free(m);
+void print_matrice(Pnum *m, unsigned nb_row, unsigned nb_col){
+    int i,j;
+    for (i = 0; i<nb_row; i++) {
+        for (j = 0; j<nb_col; j++) {
+//            printf("%10.2f\t",m[ind(nb_col, i, j)]);
+            printf("%f\t",m[ind(nb_col, i, j)]);
+        }
+        printf("\n");
+    }
 }
 
-// getter
-//Stockage en RowMajor
-Pnum get(Matrice *m,unsigned i,unsigned j){
-    return m->data[i*m->nb_col+j];
-}
-
-//setter
-void set(Matrice *m, unsigned i,unsigned j,Pnum value){
-    assert(i>=0 && i<m->nb_row);
-    assert(j>=0 && j<m->nb_col);
-    m->data[i*m->nb_col+j] = value;
+void copie(Pnum *source, Pnum *dest, unsigned nb_row, unsigned nb_col){
+    int i,j;
+    for (i=0; i<nb_row; i++) {
+        for (j=0; j<nb_col; j++) {
+            dest[ind(nb_col, i, j)] = source[ind(nb_col, i, j)];
+        }
+    }
 }

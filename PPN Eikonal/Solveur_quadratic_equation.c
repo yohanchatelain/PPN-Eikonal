@@ -9,23 +9,25 @@
 #include <math.h>
 #include "Solveur_quadratic_equation.h"
 
-#define SIGN(x) (x>0)
 
-Pnum solveEquation(Pnum Tx, Pnum Ty, Pnum a, Pnum b, Pnum c){
-    Pnum delta = b*b - 4*a*c;
-    if (delta<0) return INF;
-    Pnum q = -0.5*(b+SIGN(b)*sqrtf(delta));
-    return fmaxf(q/a, c/q);
+int signe(Pnum b) {
+    if (b>=0)
+        return 1;
+    else
+        return -1;
 }
 
 //alpha = h/c
-Pnum solveEquation_2(Pnum Tx, Pnum Ty, Pnum a, Pnum b, Pnum c, Pnum alpha){
-    Pnum delta = b*b - 4*a*c;
-    if (delta<0) return INF;
-    Pnum q = -0.5*(b+SIGN(b)*sqrtf(delta));
-    Pnum x_sol = fmaxf(q/a, c/q);
-    if (Ty > x_sol && x_sol > Tx) return Tx + alpha;
-    if (Tx > x_sol && x_sol > Ty) return Ty + alpha;
-    // if (x_sol > fmaxf(Tx, Ty))
-    return x_sol;
+Pnum solveEquation_2(Pnum Tx, Pnum Ty, Pnum h, Pnum f){
+    if (fabs(Tx-Ty) >= (2.0/3.0)*sqrtf(2.0)*h/f)
+        return fminf(Tx, Ty) + h/f;
+    else
+        return (Tx+Ty+sqrtf((8.0/9.0)*h*h/(f*f)-(Tx-Ty)*(Tx-Ty)))/2.0;
+}
+
+Pnum solveEquation_1(Pnum Tx, Pnum Ty, Pnum h, Pnum f){
+    if (fabs(Tx-Ty) >= sqrtf(2.0)*h/f)
+        return fminf(Tx, Ty) + h/f;
+    else
+        return (Tx+Ty+sqrtf(2*h*h/(f*f)-(Tx-Ty)*(Tx-Ty)))/2.0;
 }

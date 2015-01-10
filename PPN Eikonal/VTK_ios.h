@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include "Matrix.h"
 
-void readVTK(Matrice *m,char *file_name_matrix);
-void writeVTK(Matrice *m,char *file_name_matrix);
+void readVTK(Pnum *m,char *file_name_matrix);
+void writeVTK(Pnum *m,unsigned nb_row, unsigned nb_col, char *file_name_matrix);
 
 #endif /* defined(__PPN_Eikonal__VTKReader__) */
