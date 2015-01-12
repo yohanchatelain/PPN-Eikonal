@@ -16,7 +16,6 @@ void print_matrice(Pnum *m, unsigned nb_row, unsigned nb_col){
     int i,j;
     for (i = 0; i<nb_row; i++) {
         for (j = 0; j<nb_col; j++) {
-//            printf("%10.2f\t",m[ind(nb_col, i, j)]);
             printf("%f\t",m[ind(nb_col, i, j)]);
         }
         printf("\n");

@@ -29,7 +29,11 @@ void init_front_segment(unsigned *front,unsigned *nb_points_front, int nb_row, i
 
 void RT_firstOrder(Pnum *m, Pnum *velocity, unsigned nb_row, unsigned nb_col, unsigned *front, unsigned nb_points_front);
 void RT_secondOrder(Pnum* m,Pnum* velocity,unsigned nb_row, unsigned nb_col, unsigned* f, unsigned nb_points_front);
+
 void init_velocity_const(Pnum *velocity,Pnum v, unsigned nb_row, unsigned nb_col);
-void init_velocity(Pnum *velocity, unsigned nb_row, unsigned nb_col);
+void init_velocity_gaussienne(Pnum *velocity, unsigned nb_row, unsigned nb_col, int x_0, int y_0, int sigma_x, int sigma_y);
+void init_velocity_carre(Pnum *velocity, Pnum v, int nb_row, int nb_col, int cote, int centre_x, int centre_y);
+void init_velocity_rectangle(Pnum *velocity, Pnum v, int nb_row, int nb_col, int largeur, int longueur, int centre_x, int centre_y);
+void init_velocity_disque(Pnum *velocity, Pnum v, int rayon, int x_0, int y_0, unsigned nb_row, unsigned nb_col);
 
 #endif /* defined(__PPN_Eikonal__AlgoRouyTourin__) */

@@ -1,0 +1,444 @@
+Algorithm Rouy-Tourin : problem 10 x 10 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 3.235011e-01
+l infini : 6.179624e-01
+15 itérations
+TIME : 0.000052 sec
+
+Algorithm Rouy-Tourin : problem 10 x 10 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 3.235011e-01
+l infini : 6.179624e-01
+15 itérations
+TIME : 0.000114 sec
+
+Algorithm Rouy-Tourin : problem 20 x 20 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.221282e-01
+l infini : 1.010819e+00
+29 itérations
+TIME : 0.000498 sec
+
+Algorithm Rouy-Tourin : problem 20 x 20 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.217111e-01
+l infini : 7.932587e-01
+26 itérations
+TIME : 0.000462 sec
+
+Algorithm Rouy-Tourin : problem 30 x 30 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.005262e-01
+l infini : 1.510130e+00
+43 itérations
+TIME : 0.001205 sec
+
+Algorithm Rouy-Tourin : problem 30 x 30 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.736462e-01
+l infini : 9.035034e-01
+33 itérations
+TIME : 0.001501 sec
+
+Algorithm Rouy-Tourin : problem 40 x 40 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.799248e-01
+l infini : 2.219606e+00
+57 itérations
+TIME : 0.002783 sec
+
+Algorithm Rouy-Tourin : problem 40 x 40 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.155936e-01
+l infini : 9.859676e-01
+43 itérations
+TIME : 0.002980 sec
+
+Algorithm Rouy-Tourin : problem 50 x 50 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.584342e-01
+l infini : 2.687378e+00
+69 itérations
+TIME : 0.005285 sec
+
+Algorithm Rouy-Tourin : problem 50 x 50 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.543251e-01
+l infini : 1.052147e+00
+53 itérations
+TIME : 0.005715 sec
+
+Algorithm Rouy-Tourin : problem 60 x 60 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 7.356889e-01
+l infini : 3.336380e+00
+79 itérations
+TIME : 0.008464 sec
+
+Algorithm Rouy-Tourin : problem 60 x 60 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.867687e-01
+l infini : 1.107506e+00
+63 itérations
+TIME : 0.009816 sec
+
+Algorithm Rouy-Tourin : problem 70 x 70 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 8.120451e-01
+l infini : 3.964039e+00
+89 itérations
+TIME : 0.013226 sec
+
+Algorithm Rouy-Tourin : problem 70 x 70 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.146986e-01
+l infini : 1.155140e+00
+73 itérations
+TIME : 0.016508 sec
+
+Algorithm Rouy-Tourin : problem 80 x 80 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 8.871206e-01
+l infini : 4.450996e+00
+101 itérations
+TIME : 0.019720 sec
+
+Algorithm Rouy-Tourin : problem 80 x 80 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.390930e-01
+l infini : 1.196953e+00
+83 itérations
+TIME : 0.022962 sec
+
+Algorithm Rouy-Tourin : problem 90 x 90 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 9.616642e-01
+l infini : 5.275051e+00
+111 itérations
+TIME : 0.029115 sec
+
+Algorithm Rouy-Tourin : problem 90 x 90 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.607388e-01
+l infini : 1.234238e+00
+93 itérations
+TIME : 0.033088 sec
+
+Algorithm Rouy-Tourin : problem 100 x 100 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.037134e+00
+l infini : 5.833996e+00
+121 itérations
+TIME : 0.036015 sec
+
+Algorithm Rouy-Tourin : problem 100 x 100 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.802012e-01
+l infini : 1.267883e+00
+103 itérations
+TIME : 0.049432 sec
+
+Algorithm Rouy-Tourin : problem 200 x 200 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.808310e+00
+l infini : 1.212196e+01
+223 itérations
+TIME : 0.312992 sec
+
+Algorithm Rouy-Tourin : problem 200 x 200 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 8.108777e-01
+l infini : 1.495041e+00
+203 itérations
+TIME : 0.357641 sec
+
+Algorithm Rouy-Tourin : problem 300 x 300 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 2.577175e+00
+l infini : 1.811980e+01
+325 itérations
+TIME : 0.918885 sec
+
+Algorithm Rouy-Tourin : problem 300 x 300 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 8.898218e-01
+l infini : 1.631592e+00
+303 itérations
+TIME : 1.173547 sec
+
+Algorithm Rouy-Tourin : problem 400 x 400 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 3.330109e+00
+l infini : 2.428636e+01
+429 itérations
+TIME : 2.015163 sec
+
+Algorithm Rouy-Tourin : problem 400 x 400 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 9.470535e-01
+l infini : 1.729401e+00
+403 itérations
+TIME : 2.741441 sec
+
+Algorithm Rouy-Tourin : problem 500 x 500 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.073373e+00
+l infini : 3.043451e+01
+529 itérations
+TIME : 4.007911 sec
+
+Algorithm Rouy-Tourin : problem 500 x 500 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 9.921038e-01
+l infini : 1.805664e+00
+503 itérations
+TIME : 5.436073 sec
+
+Algorithm Rouy-Tourin : problem 600 x 600 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.809642e+00
+l infini : 3.639780e+01
+629 itérations
+TIME : 6.787219 sec
+
+Algorithm Rouy-Tourin : problem 600 x 600 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.029319e+00
+l infini : 1.868195e+00
+603 itérations
+TIME : 9.581319 sec
+
+Algorithm Rouy-Tourin : problem 700 x 700 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.541159e+00
+l infini : 4.260294e+01
+729 itérations
+TIME : 10.602233 sec
+
+Algorithm Rouy-Tourin : problem 700 x 700 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.061072e+00
+l infini : 1.921173e+00
+703 itérations
+TIME : 14.890956 sec
+
+Algorithm Rouy-Tourin : problem 800 x 800 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.269578e+00
+l infini : 4.887625e+01
+825 itérations
+TIME : 15.394930 sec
+
+Algorithm Rouy-Tourin : problem 800 x 800 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.088797e+00
+l infini : 1.967041e+00
+803 itérations
+TIME : 21.927298 sec
+
+Algorithm Rouy-Tourin : problem 900 x 900 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 6.997609e+00
+l infini : 5.516394e+01
+925 itérations
+TIME : 21.863331 sec
+
+Algorithm Rouy-Tourin : problem 900 x 900 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.113366e+00
+l infini : 2.007751e+00
+903 itérations
+TIME : 31.401044 sec
+
+Algorithm Rouy-Tourin : problem 1000 x 1000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 7.729734e+00
+l infini : 6.144931e+01
+1025 itérations
+TIME : 30.004369 sec
+
+Algorithm Rouy-Tourin : problem 1000 x 1000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.135359e+00
+l infini : 2.043579e+00
+1003 itérations
+TIME : 42.833989 sec
+
+Algorithm Rouy-Tourin : problem 2000 x 2000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 4.102335e+01
+l infini : 4.142136e+02
+1817 itérations
+TIME : 219.801728 sec
+
+Algorithm Rouy-Tourin : problem 2000 x 2000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 2.730426e+01
+l infini : 4.142136e+02
+1414 itérations
+TIME : 236.791443 sec
+
+Algorithm Rouy-Tourin : problem 3000 x 3000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 2.695404e+02
+l infini : 1.121320e+03
+2047 itérations
+TIME : 547.219952 sec
+
+Algorithm Rouy-Tourin : problem 3000 x 3000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 2.643003e+02
+l infini : 1.121320e+03
+1414 itérations
+TIME : 498.579059 sec
+
+Algorithm Rouy-Tourin : problem 4000 x 4000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.932445e+02
+l infini : 1.828427e+03
+2047 itérations
+TIME : 990.432890 sec
+
+Algorithm Rouy-Tourin : problem 4000 x 4000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 5.932091e+02
+l infini : 1.828427e+03
+1414 itérations
+TIME : 878.265428 sec
+
+Algorithm Rouy-Tourin : problem 5000 x 5000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 9.796733e+02
+l infini : 2.535534e+03
+2047 itérations
+TIME : 1542.790051 sec
+
+Algorithm Rouy-Tourin : problem 5000 x 5000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 9.796733e+02
+l infini : 2.535534e+03
+1414 itérations
+TIME : 1385.594941 sec
+
+Algorithm Rouy-Tourin : problem 6000 x 6000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.269226e+03
+l infini : 3.242641e+03
+2047 itérations
+TIME : 2293.310159 sec
+
+Algorithm Rouy-Tourin : problem 6000 x 6000 with finite difference second order
+time_so.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.269226e+03
+l infini : 3.242641e+03
+1414 itérations
+TIME : 2161.961571 sec
+
+Algorithm Rouy-Tourin : problem 7000 x 7000 with finite difference fisrt order
+time_fo.dat.dat has been written
+l1_error.dat.dat has been written
+lin_error.dat.dat has been written
+l1 : 1.402438e+03
+l infini : 3.949748e+03
+2047 itérations
+TIME : 3273.577114 sec
+
+Algorithm Rouy-Tourin : problem 7000 x 7000 with finite difference second order
+time_so.dat.dat has been written
+Program ended with exit code: 9

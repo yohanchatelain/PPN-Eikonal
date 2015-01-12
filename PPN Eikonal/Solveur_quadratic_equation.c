@@ -17,17 +17,19 @@ int signe(Pnum b) {
         return -1;
 }
 
-//alpha = h/c
-Pnum solveEquation_2(Pnum Tx, Pnum Ty, Pnum h, Pnum f){
-    if (fabs(Tx-Ty) >= (2.0/3.0)*sqrtf(2.0)*h/f)
-        return fminf(Tx, Ty) + h/f;
-    else
-        return (Tx+Ty+sqrtf((8.0/9.0)*h*h/(f*f)-(Tx-Ty)*(Tx-Ty)))/2.0;
-}
-
 Pnum solveEquation_1(Pnum Tx, Pnum Ty, Pnum h, Pnum f){
     if (fabs(Tx-Ty) >= sqrtf(2.0)*h/f)
         return fminf(Tx, Ty) + h/f;
     else
         return (Tx+Ty+sqrtf(2*h*h/(f*f)-(Tx-Ty)*(Tx-Ty)))/2.0;
+}
+
+Pnum solveEquation_2(Pnum Txm, Pnum Txp, Pnum Tym, Pnum Typ, Pnum h, Pnum f){
+    Pnum a = (Txm + Txp + Tym + Typ)*9.0/(4.0*h*h),
+    b = -2*a,
+    c = (Txm*Txm + Txp*Txp + Tym*Tym + Typ*Typ)*9.0/(4.0*h*h) - 1/(f*f);
+    
+    Pnum delta = b*b - 4*a*c;
+    if (delta < 0) return INF;
+    return (-b+sqrtf(delta))/(2*a);
 }

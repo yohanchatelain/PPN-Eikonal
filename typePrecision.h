@@ -8,16 +8,14 @@
 
 #ifndef __PPN_Eikonal__typePrecision__
 #define __PPN_Eikonal__typePrecision__
-
-//Constante représentant l'infini
-#define INF 1000.0
-
 #include <stdio.h>
+
 
 //Type pour masquer la précision
 typedef float Pnum;
 
-
-
+const static Pnum epsilon = 10E-10;
+const static Pnum h = 1.0;
+const static Pnum INF = 10000.0;
 
 #endif /* defined(__PPN_Eikonal__typePrecision__) */

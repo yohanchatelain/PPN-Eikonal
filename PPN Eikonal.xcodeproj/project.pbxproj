@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		153B8A951A39B33300DB8369 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A941A39B33300DB8369 /* main.c */; };
-		153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A9B1A39B7D900DB8369 /* FirstOrder.c */; };
 		153B8AA01A3A05DE00DB8369 /* Matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8A9E1A3A05DE00DB8369 /* Matrix.c */; };
 		153B8AA41A3A09F600DB8369 /* Solveur_quadratic_equation.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8AA21A3A09F600DB8369 /* Solveur_quadratic_equation.c */; };
 		153B8AA71A3A0A2400DB8369 /* typePrecision.c in Sources */ = {isa = PBXBuildFile; fileRef = 153B8AA51A3A0A2400DB8369 /* typePrecision.c */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		153B8A911A39B33300DB8369 /* PPN Eikonal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PPN Eikonal"; sourceTree = BUILT_PRODUCTS_DIR; };
 		153B8A941A39B33300DB8369 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		153B8A9B1A39B7D900DB8369 /* FirstOrder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = FirstOrder.c; sourceTree = "<group>"; };
 		153B8A9C1A39B7D900DB8369 /* FirstOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstOrder.h; sourceTree = "<group>"; };
 		153B8A9E1A3A05DE00DB8369 /* Matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Matrix.c; sourceTree = "<group>"; };
 		153B8A9F1A3A05DE00DB8369 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
@@ -41,6 +39,7 @@
 		153B8AA61A3A0A2400DB8369 /* typePrecision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = typePrecision.h; path = ../typePrecision.h; sourceTree = "<group>"; };
 		153B8AA81A3A19B900DB8369 /* AlgoRouyTourin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AlgoRouyTourin.c; sourceTree = "<group>"; };
 		153B8AA91A3A19B900DB8369 /* AlgoRouyTourin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgoRouyTourin.h; sourceTree = "<group>"; };
+		1589E5A21A62D29400C26845 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 		15A044891A3AE2680074DCDE /* VTK_ios.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VTK_ios.c; sourceTree = "<group>"; };
 		15A0448A1A3AE2680074DCDE /* VTK_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTK_ios.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,9 +77,9 @@
 				153B8A941A39B33300DB8369 /* main.c */,
 				153B8A9E1A3A05DE00DB8369 /* Matrix.c */,
 				153B8AA51A3A0A2400DB8369 /* typePrecision.c */,
-				153B8A9B1A39B7D900DB8369 /* FirstOrder.c */,
 				153B8AA21A3A09F600DB8369 /* Solveur_quadratic_equation.c */,
 				15A044891A3AE2680074DCDE /* VTK_ios.c */,
+				1589E5A21A62D29400C26845 /* File */,
 				153B8AA81A3A19B900DB8369 /* AlgoRouyTourin.c */,
 				153B8AA11A3A05FC00DB8369 /* Includes */,
 			);
@@ -161,7 +160,6 @@
 				15A0448B1A3AE2680074DCDE /* VTK_ios.c in Sources */,
 				153B8AAA1A3A19B900DB8369 /* AlgoRouyTourin.c in Sources */,
 				153B8AA71A3A0A2400DB8369 /* typePrecision.c in Sources */,
-				153B8A9D1A39B7D900DB8369 /* FirstOrder.c in Sources */,
 				153B8AA41A3A09F600DB8369 /* Solveur_quadratic_equation.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,7 +188,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -253,6 +251,7 @@
 		153B8A9A1A39B33300DB8369 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

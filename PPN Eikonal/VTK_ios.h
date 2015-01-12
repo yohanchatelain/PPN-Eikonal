@@ -12,7 +12,8 @@
 #include <stdio.h>
 #include "Matrix.h"
 
-void readVTK(Pnum *m,char *file_name_matrix);
+void dput_xy(FILE *file,Pnum x, Pnum y);
+FILE* gnudata_open(char *filename);
 void writeVTK(Pnum *m,unsigned nb_row, unsigned nb_col, char *file_name_matrix);
 
 #endif /* defined(__PPN_Eikonal__VTKReader__) */
